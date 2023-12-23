@@ -25,4 +25,4 @@
       command: docker push pgdocker07/petstore:latest
 
     - name: Run container
-      command: docker run -d --name pet1 -p 8081:8080 pgdocker07/petstore:latest
+      command: docker run -d --name pet1 -p 8081:8090 pgdocker07/petstore:latest
